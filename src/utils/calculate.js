@@ -6,6 +6,3 @@ export const calculate = (a, b, c) => {
   return sub(responseSum, c)
 }
 
-
-
-
