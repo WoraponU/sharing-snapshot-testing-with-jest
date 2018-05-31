@@ -1,10 +1,19 @@
 import React, { Component } from 'react'
 
 class Link extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      foo: 5
+    };
+  }
+
   render() {
+    const { link } = this.props
     return (
       <div>
-        Repository: <a href="https://github.com/aofleejay/snapshot-testing-workshop-with-jest" target="_blank">https://github.com/aofleejay/snapshot-testing-workshop-with-jest</a>
+        link: <a href={link} target="_blank">{link}</a>
       </div>
     )
   }
