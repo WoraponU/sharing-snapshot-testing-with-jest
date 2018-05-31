@@ -13,6 +13,11 @@ describe('Test link component', () => {
     expect(wrapper.contains(<a href="www.fackbook.com" target="_blank">www.fackbook.com</a>)).toBe(true);
   })
 
+  it('mount link stat', () => {
+    const wrapper = shallow(<Link link="www.fackbook.com" />);
+    expect(wrapper.state('foo')).toBe(5);
+  })
+
   it('shallow snapshot', () => {
     const renderer = new shallowRenderer
     const snapshot = renderer.render(<Link link="www.fackbook.com"/>)

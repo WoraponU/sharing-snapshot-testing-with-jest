@@ -12,9 +12,9 @@ describe('Test app component', () => {
   it('shallow snapshot', () => {
     // sub.mockReturnValue(4)
     sub.mockImplementation((a) => {
-      if (a === 5) {
-        return 100
-      }
+      // if (a === 5) {
+      //   return 100
+      // }
       return 4
     });
     const actual = calculate(2, 3, 1)
