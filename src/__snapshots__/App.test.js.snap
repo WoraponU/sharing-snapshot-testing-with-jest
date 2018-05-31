@@ -13,20 +13,20 @@ exports[`Test app component full snapshot 1`] = `
       <h1
         className="title"
       >
-        React Snapshot Testing With Jest
+        React Testing With Jest
       </h1>
       <h2
         className="subtitle"
       >
-        Kunapot Pairat
+        worapon
       </h2>
       <div>
-        Repository: 
+        link: 
         <a
-          href="https://github.com/aofleejay/snapshot-testing-workshop-with-jest"
+          href="www.google.com"
           target="_blank"
         >
-          https://github.com/aofleejay/snapshot-testing-workshop-with-jest
+          www.google.com
         </a>
       </div>
     </div>
@@ -47,14 +47,16 @@ exports[`Test app component shallow snapshot 1`] = `
       <h1
         className="title"
       >
-        React Snapshot Testing With Jest
+        React Testing With Jest
       </h1>
       <h2
         className="subtitle"
       >
-        Kunapot Pairat
+        worapon
       </h2>
-      <Link />
+      <Link
+        link="www.google.com"
+      />
     </div>
   </div>
 </section>

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test link component full snapshot 1`] = `
+<div>
+  link: 
+  <a
+    href="www.fackbook.com"
+    target="_blank"
+  >
+    www.fackbook.com
+  </a>
+</div>
+`;
+
+exports[`Test link component shallow snapshot 1`] = `
+<div>
+  link: 
+  <a
+    href="www.fackbook.com"
+    target="_blank"
+  >
+    www.fackbook.com
+  </a>
+</div>
+`;

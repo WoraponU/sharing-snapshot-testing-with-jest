@@ -3,17 +3,18 @@ import Link from './Link'
 
 class App extends Component {
   render() {
+    const { title } = this.props
     return (
       <section className="hero is-primary">
         <div className="hero-body">
           <div className="container">
             <h1 className="title">
-              React Snapshot Testing With Jest
+              React Testing With Jest
             </h1>
             <h2 className="subtitle">
-              Kunapot Pairat
+              worapon 
             </h2>
-            <Link />
+            <Link link="www.google.com"/>
           </div>
         </div>
       </section>
